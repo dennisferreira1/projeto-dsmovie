@@ -5,6 +5,11 @@ header {
     align-items: center;
 }
 
+a, a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
 .dsmovie-nav-content {
     display: flex;
     justify-content: space-between;
