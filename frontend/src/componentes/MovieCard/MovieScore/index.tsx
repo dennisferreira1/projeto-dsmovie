@@ -13,4 +13,4 @@ function MovieScore() {
     );
 }
 
-export default MovieStar;
+export default MovieScore;
