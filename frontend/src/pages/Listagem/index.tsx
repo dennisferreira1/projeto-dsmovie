@@ -28,9 +28,13 @@ function Listagem() {
             });
     }, [pageNumber]);
 
+    const changePage = (newNumberPage: number) => {
+        setPageNumber(newNumberPage);
+    }
+
     return (
         <>
-            <Paginacao />
+            <Paginacao page= {page} onChangePage= {changePage}  />
             <div className="container">
                 <div className="row">
 
